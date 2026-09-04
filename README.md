@@ -1,6 +1,6 @@
 # QuietPages - Astro Magazine Theme
 
-[![Quiet Pages theme preview](./preview.webp)](https://quietpages-eta.vercel.app/)
+[![Quiet Pages theme preview](./preview.webp)](https://ccim.catholic.mt/)
 
 ![Version 2.2.0](https://img.shields.io/badge/Version-2.2.0-111827?style=for-the-badge)
 ![Astro 7](https://img.shields.io/badge/Astro-7-ff5d01?style=for-the-badge&logo=astro&logoColor=white)
@@ -8,7 +8,7 @@
 ![MDX](https://img.shields.io/badge/MDX-enabled-1b1f24?style=for-the-badge&logo=mdx&logoColor=white)
 ![License MIT](https://img.shields.io/badge/License-MIT-111827?style=for-the-badge)
 
-**Preview:** [quietpages-eta.vercel.app](https://quietpages-eta.vercel.app/)
+**Preview:** [ccim.catholic.mt](https://ccim.catholic.mt/)
 
 QuietPages is a calm Astro theme for independent magazines, personal journals, and long-form editorial sites. It keeps the reading experience simple and fast while including the pieces a production-ready publication needs: archives, taxonomy pages, author pages, RSS, sitemap, structured metadata, and self-hosted fonts.
 
