@@ -1,17 +1,17 @@
 const siteUrl = (
   import.meta.env.SITE_URL ||
   import.meta.env.PUBLIC_SITE_URL ||
-  "https://quietpages-eta.vercel.app"
+  "https://ccim.catholic.mt"
 ).replace(/\/$/, "");
 
 export const SITE = {
-  name: "Quiet Pages",
+  name: "CCiM - Chinese Catholic in Malta",
   description:
-    "An independent magazine on writing, design, and the slow web. Published occasionally, read closely.",
+    "In the beginning was the Word",
   url: siteUrl,
   locale: "en-US",
   language: "en",
-  repositoryUrl: "https://github.com/andreialba/quietpages",
+  repositoryUrl: "https://github.com/wangdongcheng/ccim",
 };
 
 export const NAVIGATION = [
@@ -22,7 +22,7 @@ export const NAVIGATION = [
 ];
 
 export const CONTACT = {
-  email: "hello@example.com",
+  email: "paul@catholic.mt",
   socialHandle: "@quietpages",
   socialUrl: "https://x.com/quietpages",
 };
