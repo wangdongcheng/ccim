@@ -5,7 +5,7 @@ const siteUrl = (
 ).replace(/\/$/, "");
 
 export const SITE = {
-  name: "CCiM - Chinese Catholic in Malta",
+  name: "Chinese Catholic in Malta",
   description:
     "In the beginning was the Word",
   url: siteUrl,
