@@ -23,8 +23,8 @@ export const NAVIGATION = [
 
 export const CONTACT = {
   email: "paul@catholic.mt",
-  socialHandle: "@quietpages",
-  socialUrl: "https://x.com/quietpages",
+  // socialHandle: "@quietpages",
+  // socialUrl: "https://x.com/quietpages",
 };
 
 export const FORMS = {
