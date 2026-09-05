@@ -72,6 +72,14 @@ export const authors = [
       "Mira's work sits at the intersection of place, memory, and the everyday object. Her essays have appeared in a number of small but loved publications.",
     avatar: "/avatars/mira-iwasaki.svg",
   },
+    {
+    slug: "paul",
+    name: "Paul",
+    bio: "Ask and you shall receive.",
+    longBio:
+      "Founder of CCIM.",
+    avatar: "/avatars/paul.svg",
+  },
 ];
 
 export const categories = [
@@ -80,6 +88,11 @@ export const categories = [
   { slug: "engineering", name: "Engineering" },
   { slug: "field-notes", name: "Field Notes" },
   { slug: "interviews", name: "Interviews" },
+  { slug: "daily-readings", name: "Daily Readings" },
+  { slug: "homilies", name: "Homilies" },
+  { slug: "thoughts", name: "Thoughts" },
+  { slug: "meditations", name: "Meditations" },
+  { slug: "casual-talks", name: "Casual Talks" },
 ];
 
 export const tags = [
@@ -91,4 +104,7 @@ export const tags = [
   { slug: "process", name: "Process" },
   { slug: "web", name: "Web" },
   { slug: "books", name: "Books" },
+  { slug: "malta", name: "Malta" },
+  { slug: "shanghai", name: "Shanghai" },
+  { slug: "saints", name: "Saints" },
 ];
