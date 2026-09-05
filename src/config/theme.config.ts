@@ -23,8 +23,8 @@ export const NAVIGATION = [
 
 export const CONTACT = {
   email: "paul@catholic.mt",
-  // socialHandle: "@quietpages",
-  // socialUrl: "https://x.com/quietpages",
+  socialHandle: "@paul2mt",
+  socialUrl: "https://x.com/paul2mt",
 };
 
 export const FORMS = {
@@ -83,16 +83,16 @@ export const authors = [
 ];
 
 export const categories = [
+  { slug: "daily-readings", name: "Daily Readings" },
+  { slug: "homilies", name: "Homilies" },
+  { slug: "thoughts", name: "Thoughts" },
+  { slug: "meditations", name: "Meditations" },
+  { slug: "casual-talks", name: "Casual Talks" },  
   { slug: "essays", name: "Essays" },
   { slug: "design", name: "Design" },
   { slug: "engineering", name: "Engineering" },
   { slug: "field-notes", name: "Field Notes" },
   { slug: "interviews", name: "Interviews" },
-  { slug: "daily-readings", name: "Daily Readings" },
-  { slug: "homilies", name: "Homilies" },
-  { slug: "thoughts", name: "Thoughts" },
-  { slug: "meditations", name: "Meditations" },
-  { slug: "casual-talks", name: "Casual Talks" },
 ];
 
 export const tags = [
