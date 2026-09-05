@@ -178,7 +178,7 @@ const latest = (await sortedPosts()).filter((post) => post.slug !== featured.slu
     </div>
 
     <div class="mt-10 grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
-      {latest.map((post, index) => <PostCard post={post} hidden={index >= 6} />)}
+      {latest.map((post, index) => <PostCard post={post} hidden={index >= 12} />)}
     </div>
 
     <div class="mt-12 text-center">
@@ -211,7 +211,7 @@ const latest = (await sortedPosts()).filter((post) => post.slug !== featured.slu
       let visible = 0;
       cards.forEach((card) => {
         const match = !category || card.dataset.category === category;
-        const show = match && visible < 6;
+        const show = match && visible < 12;
         card.hidden = !show;
         if (match) visible += 1;
       });
