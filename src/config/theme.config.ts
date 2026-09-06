@@ -107,4 +107,9 @@ export const tags = [
   { slug: "malta", name: "Malta" },
   { slug: "shanghai", name: "Shanghai" },
   { slug: "saints", name: "Saints" },
+  { slug: "matthew", name: "Matthew" },
+  { slug: "john", name: "John" },
+  { slug: "luke", name: "Luke" },
+  { slug: "mark", name: "Mark" },
+  { slug: "genesis", name: "Genesis" },
 ];
