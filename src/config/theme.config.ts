@@ -112,4 +112,10 @@ export const tags = [
   { slug: "luke", name: "Luke" },
   { slug: "mark", name: "Mark" },
   { slug: "genesis", name: "Genesis" },
+  { slug: "exodus", name: "Exodus" },
+  { slug: "1-corinthians", name: "1 Corinthians" },
+  { slug: "2-corinthians", name: "2 Corinthians" },
+  { slug: "psalms", name: "Psalms" },
+  { slug: "ezekiel", name: "Ezekiel" },
+  { slug: "romans", name: "Romans" },
 ];
