@@ -88,6 +88,7 @@ export const categories = [
   { slug: "thoughts", name: "Thoughts" },
   { slug: "meditations", name: "Meditations" },
   { slug: "casual-talks", name: "Casual Talks" },  
+  { slug: "arts", name: "Arts" },  
   { slug: "essays", name: "Essays" },
   { slug: "design", name: "Design" },
   { slug: "engineering", name: "Engineering" },
