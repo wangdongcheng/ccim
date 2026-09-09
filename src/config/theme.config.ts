@@ -120,4 +120,8 @@ export const tags = [
   { slug: "ezekiel", name: "Ezekiel" },
   { slug: "romans", name: "Romans" },
   { slug: "micah", name: "Micah" },
+  { slug: "1 john", name: "1 John" },
+  { slug: "2 john", name: "2 John" },
+  { slug: "3 john", name: "3 John" },
+  { slug: "revelation", name: "Revelation" },
 ];
