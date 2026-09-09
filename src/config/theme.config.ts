@@ -22,7 +22,7 @@ export const NAVIGATION = [
 ];
 
 export const CONTACT = {
-  email: "paul@catholic.mt",
+  email: "paul@ccim.catholic.mt",
   socialHandle: "@paul2mt",
   socialUrl: "https://x.com/paul2mt",
 };
