@@ -119,4 +119,5 @@ export const tags = [
   { slug: "psalms", name: "Psalms" },
   { slug: "ezekiel", name: "Ezekiel" },
   { slug: "romans", name: "Romans" },
+  { slug: "micah", name: "Micah" },
 ];
