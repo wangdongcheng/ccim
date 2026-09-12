@@ -152,11 +152,13 @@ This is a strict specification.
 These GitHub rules apply **only to the `wangdongcheng/ccim` repository** and must not be generalized to any other repository.
 
 - Commit messages, PR titles, and PR bodies must be written in **English only**.
-- Treat the exact user instructions **`commit to main`** and **`push to main`** as explicit authorization to write directly to the `main` branch.
-- When either of those instructions is present for a `ccim` task, commit directly to `main` and do **not** create, update, synchronize, or otherwise use the `preview` branch for that task.
-- Do not reinterpret similar wording as authorization. If direct-to-main behavior is required, the instruction must explicitly contain `commit to main` or `push to main`.
-- In normal `ccim` work, there is generally no need to operate on the `preview` branch unless the user explicitly asks for `preview`, a pull request, or another non-main workflow.
-- These branch-handling rules are repository-specific and apply only to `wangdongcheng/ccim`.
+- The repository is **read-only by default** for ChatGPT-assisted work.
+- Do **not** modify any file, create or update any branch, create a commit, push changes, create a pull request, merge a pull request, or perform any other repository write unless the user's instruction explicitly contains **`commit to main`** or **`push to main`**.
+- Treat the exact user instructions **`commit to main`** and **`push to main`** as explicit authorization to modify the repository and write directly to the `main` branch for that task.
+- When either authorization phrase is present, commit directly to `main` and do **not** create, update, synchronize, or otherwise use the `preview` branch unless the user separately and explicitly asks for it.
+- Do not reinterpret similar wording as authorization. Instructions such as “update the repo”, “make the change”, “deploy it”, “commit it”, or “push it” are **not sufficient** unless they explicitly contain `commit to main` or `push to main`.
+- Without one of the two authorization phrases, analysis, review, recommendations, diffs, or proposed code may be provided, but **no repository write operation may be performed**.
+- These write-authorization rules are repository-specific and apply only to `wangdongcheng/ccim`.
 
 # ccim Astro Development Guidelines
 
