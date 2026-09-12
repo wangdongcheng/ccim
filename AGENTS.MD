@@ -147,11 +147,16 @@ This is a strict specification.
 - If WanYou ZhenYuan presents an ambiguity not covered by this file, do not guess. State the ambiguity and ask for the specification to be extended.
 - Once the user resolves an ambiguity, incorporate the new rule into this specification when requested.
 
-## 12. GitHub conventions for these tasks
+## 12. GitHub conventions for this repository
+
+These GitHub rules apply **only to the `wangdongcheng/ccim` repository** and must not be generalized to any other repository.
 
 - Commit messages, PR titles, and PR bodies must be written in **English only**.
-- When a branch is not explicitly specified by the user, use the repository's established `preview` workflow rather than pushing directly to `main`.
-- Direct pushes to `main` are allowed only when the user explicitly requests them for that task.
+- Treat the exact user instructions **`commit to main`** and **`push to main`** as explicit authorization to write directly to the `main` branch.
+- When either of those instructions is present for a `ccim` task, commit directly to `main` and do **not** create, update, synchronize, or otherwise use the `preview` branch for that task.
+- Do not reinterpret similar wording as authorization. If direct-to-main behavior is required, the instruction must explicitly contain `commit to main` or `push to main`.
+- In normal `ccim` work, there is generally no need to operate on the `preview` branch unless the user explicitly asks for `preview`, a pull request, or another non-main workflow.
+- These branch-handling rules are repository-specific and apply only to `wangdongcheng/ccim`.
 
 # Instructions for Astro Theme Development
 
