@@ -124,4 +124,6 @@ export const tags = [
   { slug: "2 john", name: "2 John" },
   { slug: "3 john", name: "3 John" },
   { slug: "revelation", name: "Revelation" },
+  { slug: "galatians", name: "Galatians" },
+  { slug: "mary", name: "Mary" }
 ];
