@@ -25,8 +25,8 @@ This repository uses the following specification when generating daily Mass read
 
 ### English
 
-- Use **NRSVCE — New Revised Standard Version, Catholic Edition** as the English Bible version.
-- Where copyright restrictions prevent long verbatim reproduction, provide a faithful passage-aligned rendering based on the NRSVCE while keeping the meaning and verse scope accurate.
+- Use **RSVCE — Revised Standard Version, Catholic Edition** as the English Bible version.
+- Where copyright restrictions prevent long verbatim reproduction, provide a faithful passage-aligned rendering based on the RSVCE while keeping the meaning and verse scope accurate.
 
 ## 4. Verse-number differences
 
