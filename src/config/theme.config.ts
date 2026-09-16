@@ -107,6 +107,7 @@ export const tags = [
   { slug: "books", name: "Books" },
   { slug: "malta", name: "Malta" },
   { slug: "shanghai", name: "Shanghai" },
+  { slug: "bible", name: "Bible" },
   { slug: "saints", name: "Saints" },
   { slug: "matthew", name: "Matthew" },
   { slug: "john", name: "John" },
