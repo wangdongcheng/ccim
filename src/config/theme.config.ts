@@ -130,5 +130,5 @@ export const tags = [
   { slug: "sirach", name: "Sirach" },
   { slug: "numbers", name: "Numbers" },
   { slug: "philippians", name: "Philippians" }
-
+  { slug: "vatican", name: "Vatican" }
 ];
