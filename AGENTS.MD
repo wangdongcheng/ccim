@@ -152,7 +152,7 @@ This is a strict specification.
 These GitHub rules apply **only to the `wangdongcheng/ccim` repository** and must not be generalized to any other repository.
 
 - Commit messages, PR titles, and PR bodies must be written in **English only**.
-- Every commit message must begin with a `<version>-<model>-<reasoning>: ` prefix that identifies the model used for the change, for example: `5.6-Sol-medium: Update commit message convention`.
+- Every commit message must begin with a `<version>-<model>-<reasoning>: ` prefix that identifies the model used for the change, use `5.6-sol-medium: ` by default if can't fetch this infomation from context.
 - Use the version, model, and reasoning values supplied by session metadata when available. If any value is unavailable, ask the user to confirm it rather than inferring it.
 - The repository is **read-only by default** for ChatGPT-assisted work.
 - Do **not** modify any file, create or update any branch, create a commit, push changes, create a pull request, merge a pull request, or perform any other repository write unless the user's instruction explicitly contains **`commit to main`** or **`push to main`**.
