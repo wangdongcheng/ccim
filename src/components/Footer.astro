@@ -1,7 +1,9 @@
 ---
+import { Image } from "astro:assets";
 import Icon from "./Icon.astro";
 import { SITE, categories } from "../lib/blog-data.js";
 import { SOCIAL_LINKS } from "../config/theme.config.ts";
+import melamelaLogo from "../assets/logo-flat.png";
 
 const { flush = false } = Astro.props;
 ---
@@ -22,6 +24,23 @@ const { flush = false } = Astro.props;
           ))
         }
       </div>
+      <a
+        href="https://melamela.cloud"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Powered by melamela.cloud (opens in a new tab)"
+        class="group mt-7 inline-flex items-center gap-2 rounded-sm text-muted-foreground transition-colors hover:text-foreground focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary"
+      >
+        <span class="text-[0.6875rem] uppercase tracking-[0.14em]">Powered by</span>
+        <Image
+          src={melamelaLogo}
+          alt="melamela.cloud"
+          class="h-auto w-[7.25rem] opacity-75 transition-opacity group-hover:opacity-100"
+          width={116}
+          format="webp"
+          quality={80}
+        />
+      </a>
     </div>
     <div>
       <div class="text-xs font-medium uppercase tracking-wider text-muted-foreground">Sections</div>
