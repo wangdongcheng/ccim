@@ -72,7 +72,7 @@ export const authors = [
       "Mira's work sits at the intersection of place, memory, and the everyday object. Her essays have appeared in a number of small but loved publications.",
     avatar: "/avatars/mira-iwasaki.svg",
   },
-    {
+  {
     slug: "paul",
     name: "Paul",
     bio: "Ask and you shall receive.",
@@ -87,8 +87,8 @@ export const categories = [
   { slug: "homilies", name: "Homilies" },
   { slug: "thoughts", name: "Thoughts" },
   { slug: "meditations", name: "Meditations" },
-  { slug: "casual-talks", name: "Casual Talks" },  
-  { slug: "arts", name: "Arts" },  
+  { slug: "casual-talks", name: "Casual Talks" },
+  { slug: "arts", name: "Arts" },
   { slug: "essays", name: "Essays" },
   { slug: "design", name: "Design" },
   { slug: "engineering", name: "Engineering" },
@@ -130,5 +130,6 @@ export const tags = [
   { slug: "sirach", name: "Sirach" },
   { slug: "numbers", name: "Numbers" },
   { slug: "philippians", name: "Philippians" },
-  { slug: "vatican", name: "Vatican" }
+  { slug: "vatican", name: "Vatican" },
+  { slug: "ai", name: "AI" }
 ];
