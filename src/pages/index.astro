@@ -7,6 +7,7 @@ import Icon from "../components/Icon.astro";
 import autumnScene from "../assets/autumn-scene.webp";
 import dingli from "../assets/dingli.webp";
 import banner from "../assets/banner.png";
+import melamelaLogo from "../assets/logo-flat.png";
 import {
   SITE,
   categories,
@@ -75,6 +76,23 @@ const latest = (await sortedPosts()).filter((post) => post.slug !== featured.slu
             Or browse the archive
           </a>
         </div>
+        <a
+          href="https://melamela.cloud"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Powered by melamela.cloud (opens in a new tab)"
+          class="mt-8 inline-flex items-center gap-2 text-white/60 transition-opacity hover:opacity-80 focus-visible:rounded-sm focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white"
+        >
+          <span class="text-[0.6875rem] uppercase tracking-[0.14em]">Powered by</span>
+          <Image
+            src={melamelaLogo}
+            alt="melamela.cloud"
+            class="h-auto w-[7.25rem]"
+            width={116}
+            format="webp"
+            quality={80}
+          />
+        </a>
       </div>
     </div>
   </section>
