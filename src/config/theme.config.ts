@@ -113,6 +113,7 @@ export const tags = [
   { slug: "john", name: "John" },
   { slug: "luke", name: "Luke" },
   { slug: "mark", name: "Mark" },
+  { slug: "acts", name: "Acts" },
   { slug: "genesis", name: "Genesis" },
   { slug: "exodus", name: "Exodus" },
   { slug: "1-corinthians", name: "1 Corinthians" },
@@ -131,5 +132,6 @@ export const tags = [
   { slug: "numbers", name: "Numbers" },
   { slug: "philippians", name: "Philippians" },
   { slug: "vatican", name: "Vatican" },
-  { slug: "ai", name: "AI" }
+  { slug: "ai", name: "AI" },
+  { slug: "philippians", name: "Philippians" }
 ];
