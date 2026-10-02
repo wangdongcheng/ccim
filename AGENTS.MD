@@ -2,6 +2,18 @@
 
 This repository uses the following specification when generating daily Mass readings content.
 
+## Daily-reading shorthand command
+
+- When the user says `创建 a月b日读经` (where `a` is the month and `b` is the day), treat it as a request to complete the full daily-reading workflow for that date:
+  1. Resolve the year as the current year in the `Europe/Malta` timezone.
+  2. Generate the daily Mass reading article according to this specification.
+  3. Generate a large `cover.png` with an exact 4:3 aspect ratio in a Sesame Street-style visual treatment. Use original fuzzy-puppet characters and a colorful children's educational television aesthetic; do not reproduce existing copyrighted characters.
+  4. Retrieve the Chinese reflection (`反省`) from `https://www.wanyouzhenyuan.cn/index.php?m=daily&stype=thought&date=YYYY-MM-DD`. Place the Chinese reflection first and its English translation immediately below it under `## 反省 | Reflection`.
+  5. Retrieve the papal reflection (`The words of the Popes`) from `https://www.vaticannews.va/en/word-of-the-day/YYYY/MM/DD.html`. Place a Chinese translation first and the English text immediately below it under `## 教宗的话 | The words of the Popes`.
+  6. End the article with the `## 每日一句 | Word of today` heading followed by a short bilingual golden verse selected from that day's readings.
+- The month and day in the user's shorthand do not need leading zeroes. Always normalize both to two digits in URLs and filesystem paths. For example, `创建 9月8日读经` uses `2026-09-08`, `2026/09/08`, and `src/content/blog/readings/2026/09/08/` when the current Malta year is 2026.
+- This shorthand authorizes creating or updating only the target daily-reading directory and its `index.mdx` and `cover.png`. It does not by itself authorize a Git commit or push; those actions still require the exact authorization phrases defined in the GitHub conventions below.
+
 ## 1. Authoritative date and liturgical source
 
 - Resolve the target date in the `Europe/Malta` timezone unless the user explicitly provides another date.
@@ -93,6 +105,10 @@ For the Alleluia/Gospel Acclamation:
 
 - After the complete day's readings, randomly select one **short** sentence from that day's readings as the closing golden verse.
 - It must be the final line of the article.
+- Immediately before the golden verse, add this H2 heading exactly:
+
+`## 每日一句 | Word of today`
+
 - Use exactly this format:
 
 `【中文金句】 | 【对应英语】`
@@ -101,12 +117,11 @@ Example:
 
 `知识会使人傲慢自大，爱德才能造就人。 | Knowledge puffs up, but love builds up.`
 
-- Do not add a heading such as `金句`, `Quote`, or `Verse of the Day` before it.
-
 ## 9. Daily-reading output scope
 
 - The daily reading article contains the Mass readings only.
 - Do not include a homily, reflection, news item, image description, prayer, or source list in the reading body unless the user explicitly requests a separate artifact.
+- The shorthand command `创建 a月b日读经` explicitly requires the bilingual `反省 | Reflection` and `教宗的话 | The words of the Popes` sections described above; these sections are therefore included in the same article when that shorthand is used.
 
 ## 10. MDX format in this repository
 
@@ -156,6 +171,7 @@ These GitHub rules apply **only to the `wangdongcheng/ccim` repository** and mus
 - Use the version, model, and reasoning values supplied by session metadata when available. If any value is unavailable, ask the user to confirm it rather than inferring it.
 - The repository is **read-only by default** for ChatGPT-assisted work.
 - Do **not** modify any file, create or update any branch, create a commit, push changes, create a pull request, merge a pull request, or perform any other repository write unless the user's instruction explicitly contains **`commit to main`** or **`push to main`**.
+- Exception: the exact shorthand request `创建 a月b日读经` authorizes creating or updating only `src/content/blog/readings/YYYY/MM/DD/index.mdx` and `src/content/blog/readings/YYYY/MM/DD/cover.png` for the resolved date. It does not authorize commits, pushes, branch changes, pull requests, merges, or unrelated repository writes.
 - Treat the exact user instructions **`commit to main`** and **`push to main`** as explicit authorization to modify the repository and write directly to the `main` branch for that task.
 - When either authorization phrase is present, commit directly to `main` and do **not** create, update, synchronize, or otherwise use the `preview` branch unless the user separately and explicitly asks for it.
 - Do not reinterpret similar wording as authorization. Instructions such as “update the repo”, “make the change”, “deploy it”, “commit it”, or “push it” are **not sufficient** unless they explicitly contain `commit to main` or `push to main`.
