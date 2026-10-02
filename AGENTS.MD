@@ -72,6 +72,9 @@ For a feast or memorial, use the actual liturgical name instead of an Ordinary T
   - `## 读经二 | Second Reading`
   - `## 福音前欢呼 | Alleluia`
   - `## 福音 | Gospel`
+  - `## 反省 | Reflection`
+  - `## 教宗的话 | The words of the Popes`
+  - `## 每日一句 | Word of today`
 - Do **not** add `### 中文`.
 - Do **not** add `### English`.
 - Do not add decorative emoji, extra commentary, homily material, explanations, or other sections unless explicitly required by this specification.
@@ -167,7 +170,7 @@ This is a strict specification.
 These GitHub rules apply **only to the `wangdongcheng/ccim` repository** and must not be generalized to any other repository.
 
 - Commit messages, PR titles, and PR bodies must be written in **English only**.
-- Every commit message must begin with a `<version>-<model>-<reasoning>: ` prefix that identifies the model used for the change, use `5.6-sol-medium: ` by default if can't fetch this infomation from context.
+- Every commit message must begin with a `<version>-<model>-<reasoning>: ` prefix that identifies the model used for the change, use `6.1-sol-medium: ` by default if can't fetch this infomation from context.
 - Use the version, model, and reasoning values supplied by session metadata when available. If any value is unavailable, ask the user to confirm it rather than inferring it.
 - The repository is **read-only by default** for ChatGPT-assisted work.
 - Do **not** modify any file, create or update any branch, create a commit, push changes, create a pull request, merge a pull request, or perform any other repository write unless the user's instruction explicitly contains **`commit to main`** or **`push to main`**.
