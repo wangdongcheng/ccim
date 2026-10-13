@@ -114,11 +114,11 @@ For the Alleluia/Gospel Acclamation:
 
 - Use exactly this format:
 
-`【中文金句】 | 【对应英语】`
+`【中文金句】 | 【对应英语】 🟥`
 
 Example:
 
-`知识会使人傲慢自大，爱德才能造就人。 | Knowledge puffs up, but love builds up.`
+`知识会使人傲慢自大，爱德才能造就人。 | Knowledge puffs up, but love builds up. 🟥`
 
 ## 9. Daily-reading output scope
 
