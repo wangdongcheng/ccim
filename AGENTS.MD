@@ -170,7 +170,7 @@ This is a strict specification.
 These GitHub rules apply **only to the `wangdongcheng/ccim` repository** and must not be generalized to any other repository.
 
 - Commit messages, PR titles, and PR bodies must be written in **English only**.
-- Every commit message must begin with a `<version>-<model>-<reasoning>: ` prefix that identifies the model used for the change, use `6.1-sol-medium: ` by default if can't fetch this infomation from context.
+- Every commit message must begin with a `<version>-<model>-<reasoning>: ` prefix that identifies the model used for the change, use `6.2-sol-light: ` by default if can't fetch this infomation from context.
 - The repository is **read-only by default** for ChatGPT-assisted work.
 - Do **not** modify any file, create or update any branch, create a commit, push changes, create a pull request, merge a pull request, or perform any other repository write unless the user's instruction explicitly contains **`commit to main`** or **`push to main`**.
 - Exception: the exact shorthand request `创建 a月b日读经` authorizes creating or updating only `src/content/blog/readings/YYYY/MM/DD/index.mdx` and `src/content/blog/readings/YYYY/MM/DD/cover.png` for the resolved date. It does not authorize commits, pushes, branch changes, pull requests, merges, or unrelated repository writes.
